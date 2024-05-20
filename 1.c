@@ -9,6 +9,7 @@ void caesar(char text[], int shift) {
 }
 int main() {
   char message[] = "hello how are u";
+  //fgets(msg,sizeof(msg),stdin);
   int key = 3;
   printf("Original message: %s\n", message);
 // Encryption
